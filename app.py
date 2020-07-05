@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jun 11 22:34:20 2020
-
-@author: Krish Naik
-"""
 
 from __future__ import division, print_function
 # coding=utf-8
@@ -38,7 +32,7 @@ app = Flask(__name__)
 
 
 def translate(img_path):
-    pytesseract.pytesseract.tesseract_cmd = r'C:\Users\salee\OneDrive\Pictures\Py-DS-ML-Bootcamp-master\OCR\Tesseract-OCR\tesseract.exe'
+#     pytesseract.pytesseract.tesseract_cmd = r'C:\Users\salee\OneDrive\Pictures\Py-DS-ML-Bootcamp-master\OCR\Tesseract-OCR\tesseract.exe'
 
     # img = image.load_img(img_path, target_size=(224, 224))
 
